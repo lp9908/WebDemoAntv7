@@ -38,6 +38,6 @@
 		
 	<target name="dist" depends="compile">
 		<mkdir dir="${dist}"/>
-		<jar jarfile="${dist}/demo.war" basedir="${build}"/>
+		<jar jarfile="${dist}/webDemoAntv7.war" basedir="${build}"/>
 	</target>
 </project>

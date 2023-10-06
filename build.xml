@@ -18,9 +18,9 @@
 		<javac srcdir="${src}" destdir="${build}\WEB-INF\classes" debug="true" includeantruntime="false">
 			<classpath>
 				<pathelement path="${classpath}"/>
-				<fileset dir="${WebContent}\WEB-INF\lib">
+				<!--<fileset dir="${WebContent}\WEB-INF\lib">
 					<include name="**/*.jar"/>
-				</fileset>
+				</fileset>-->
 				<fileset dir="serverlib">
 					<include name="**/*.jar"/>
 				</fileset>
